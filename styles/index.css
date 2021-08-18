@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+body {
+  font-family: "Roboto Slab", serif;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+body img {
+  height: 30rem;
+  width: 30rem;
+  border-radius: 1rem;
+}
+
+body .logo-quote {
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .logo-quote #bg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url("../images/homebg1.jpg");
+  background-position: inherit;
+  background-size: cover;
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  border-radius: 1rem;
+  z-index: -3;
+}
+
+body .logo-quote #bg #logo,
+body .logo-quote #bg #quote {
+  float: left;
+  z-index: 1;
+}
+
+body .logo-quote #bg #logo h1,
+body .logo-quote #bg #logo h3,
+body .logo-quote #bg #quote h1,
+body .logo-quote #bg #quote h3 {
+  color: whitesmoke;
+  font-family: "Roboto Slab", serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-right: 2rem;
+  margin-left: 10rem;
+  text-align: justify;
+}
+
+body .logo-quote #bg #logo h1,
+body .logo-quote #bg #quote h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  line-height: 5rem;
+}
+
+body .logo-quote #bg #logo h3,
+body .logo-quote #bg #quote h3 {
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  font-size: 1.4rem;
+}
+
+body .about h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: navy;
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "Roboto Slab", serif;
+}
+
+body .about #title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .about #content,
+body .about #a-img {
+  width: 50%;
+  float: left;
+  text-align: center;
+  margin: 0.4rem 1rem;
+}
+
+body .about #content p,
+body .about #a-img p {
+  font-size: 1.3rem;
+  text-align: justify;
+  margin-left: 3rem;
+  letter-spacing: 0.05rem;
+  font-family: "Roboto Slab", serif;
+}
+
+body .about #content img,
+body .about #a-img img {
+  text-align: center;
+  height: 24rem;
+  width: 40rem;
+}
+
+body .vm {
+  margin: 2rem;
+}
+
+body .vm #title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .vm #image,
+body .vm #content {
+  float: left;
+}
+
+body .vm #image h1,
+body .vm #image p,
+body .vm #content h1,
+body .vm #content p {
+  font-size: 1.3rem;
+  text-align: justify;
+  margin-left: 3rem;
+  letter-spacing: 0.05rem;
+  font-family: "Roboto Slab", serif;
+  line-height: 2.4rem;
+}
+
+body .vm #image h1,
+body .vm #content h1 {
+  text-align: center;
+  color: navy;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+body .vm #image img,
+body .vm #content img {
+  margin-left: 2rem;
+  text-align: center;
+  height: 24rem;
+  width: 45rem;
+}
+
+body .team {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .team h1 {
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  color: navy;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+body .team div {
+  background-image: url("../images/ourteam2.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 1rem;
+}
+
+body .team div h1,
+body .team div h2 {
+  color: white;
+  font-size: 3rem;
+}
+
+body .team div h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+body .team div h3 {
+  margin: 1rem;
+  color: white;
+  letter-spacing: 0.05rem;
+  font-family: "Roboto Slab", serif;
+  line-height: 2.4rem;
+  text-align: justify;
+}
+
+body footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body footer div {
+  float: left;
+  margin: 2rem 10rem;
+}
+
+body footer div h4 {
+  text-transform: uppercase;
+  color: navy;
+  font-size: 0.8rem;
+  font-family: "Roboto Slab", serif;
+}
+
+body footer div #dot {
+  color: white;
+}
+/*# sourceMappingURL=index.css.map */

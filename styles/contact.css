@@ -1,0 +1,196 @@
+.main {
+  height: 50vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.main .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+  grid-gap: 2rem;
+  margin-top: 10px;
+}
+
+.card {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #e2dfda;
+}
+
+img {
+  width: 1.7rem;
+  height: 1.7rem;
+}
+
+.chead {
+  height: 10rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: navy;
+}
+
+.Fmain {
+  height: 25rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#form {
+  height: 25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 1rem;
+  width: 50%;
+  border-radius: 1rem;
+  background-color: #e2dfda;
+}
+
+#form input {
+  height: 3.5rem;
+  width: 20rem;
+  border-radius: 0.8rem;
+  outline: none;
+  background-color: #d3f7f7;
+  border: none;
+  font-size: large;
+  padding-left: 1rem;
+}
+
+#form input:hover {
+  border: 0.1rem solid #cbcbee;
+}
+
+#form button {
+  height: 2rem;
+  width: 7rem;
+  background-color: white;
+  border: solid 1px black;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+#form button:hover {
+  color: black;
+  border: solid 1px #d3f7f7;
+  background-color: #d3f7f7;
+}
+
+#map {
+  height: 25rem;
+}
+
+.container {
+  position: relative;
+}
+
+/*
+Show the label at desired position when the 
+placeholder of input isn't shown
+*/
+.container__input:not(:placeholder-shown) + .container__label {
+  background-color: #e2dfda;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  opacity: 1;
+}
+
+.container__label {
+  /* Position the label */
+  left: 8px;
+  position: absolute;
+  top: 0;
+  background-color: #e2dfda;
+  font-size: large;
+  color: navy;
+  /* Hide it by default */
+  opacity: 0;
+  -webkit-transition: all 200ms;
+  transition: all 200ms;
+}
+/*# sourceMappingURL=contact.css.map */
